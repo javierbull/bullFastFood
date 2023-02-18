@@ -176,7 +176,7 @@ header {
   color: #F55A03; }
 
 .navbar-categories {
-  background-color: pink;
+  background-color: #FFFFFF;
   padding: 0 3.5rem .5rem 3.5rem; }
 
 .menu-categories {
@@ -195,10 +195,32 @@ header {
     font-weight: 600;
     text-decoration: none;
     color: #212328; }
-    .menu-categories a:hover {
+    .menu-categories a:hover, .menu-categories a.active {
       color: #F55A03; }
 
 /* End navbar */
+/* Off canvas categories mobile */
+.menu-sidebar-mobile {
+  list-style: none;
+  padding-left: 0;
+  text-align: center; }
+  .menu-sidebar-mobile li {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600; }
+    .menu-sidebar-mobile li a {
+      color: #212328;
+      text-decoration: none; }
+
+.offcanvas-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+/* End off canvas categories mobile */
 /* END COMPONENTS*/
 /*VIEWS*/
 /* Index */
@@ -209,12 +231,12 @@ body {
   font-weight: 400; }
 
 main {
-  background-color: var(--gray-light);
+  background-color: #EFEFF4;
   min-height: 100vh;
   padding-top: 7.375rem; }
 
 hr {
-  border: 1px solid var(--dark); }
+  border: 1px solid #212328; }
 
 fieldset {
   /* background-color: pink; */

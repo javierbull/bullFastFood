@@ -7,17 +7,19 @@ body {
   }
 
   main {
-    background-color: var(--gray-light);
+    background-color: $gray-light;
     min-height: 100vh;
     padding-top: 7.375rem;
   }
 
   hr {
-    border: 1px solid var(--dark);
+    border: 1px solid $dark;
   }
 
   fieldset {
     /* background-color: pink; */
     border: none;
   }
+
+  
 /* End index */

@@ -1,0 +1,21 @@
+/* Off canvas categories mobile */
+.menu-sidebar-mobile {
+    // background-color: lavender;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    li {
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        a {
+            color: $dark;
+            text-decoration: none;
+        }
+    }
+  }
+
+  .offcanvas-header {
+    @include display-flex(center, center, 1rem, row, nowrap);
+  }
+/* End off canvas categories mobile */
