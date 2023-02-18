@@ -1,6 +1,24 @@
-.navbar-top {
-    background-color: pink;
-    .navbar-top-left {
-        background-color: lavender;
-    }
-}
+/*BASE*/
+@import "base/reset";
+@import "base/typo";
+/* END BASE */
+/* UTILITIES */
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/extends";
+/* UTILITIES */
+/* COMPONENTS*/
+@import "components/buttons";
+@import "components/cards";
+@import "components/footer";
+@import "components/headers";
+@import "components/modals";
+/* END COMPONENTS*/
+/*VIEWS*/
+@import "views/home";
+@import "views/category";
+@import "views/detail";
+@import "views/locations";
+@import "views/cart";
+@import "views/checkout";
+/*END VIEWS*/

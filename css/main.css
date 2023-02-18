@@ -1,4 +1,16 @@
-.navbar-top {
-  background-color: pink; }
-  .navbar-top .navbar-top-left {
-    background-color: lavender; }
+/*BASE*/
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+/* End Reset */
+/* END BASE */
+/* UTILITIES */
+/* UTILITIES */
+/* COMPONENTS*/
+/* END COMPONENTS*/
+/*VIEWS*/
+/*END VIEWS*/
