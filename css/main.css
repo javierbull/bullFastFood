@@ -65,6 +65,9 @@
 /*End Typography*/
 /* END BASE */
 /* UTILITIES */
+.btn-categorias-tablet, .btn-categorias-mobile {
+  display: none !important; }
+
 /* UTILITIES */
 /* COMPONENTS*/
 /* Button */
@@ -115,6 +118,84 @@
     color: #212328; }
 
 /* End button */
+/* navbar main */
+header {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 4px #9C9DA1;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
+
+.navbar-top {
+  background-color: #FFFFFF;
+  padding: .5rem 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.navbar-top-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.navbar-brand {
+  height: 3.5rem; }
+
+.navbar-brand-img {
+  height: 100%; }
+
+.navbar-top-right {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.info-delivery {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.25rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.info-delivery span {
+  font-size: 2.5rem; }
+
+.wrap-delivery-number p {
+  margin-bottom: 0; }
+
+.delivery-label {
+  color: #F55A03; }
+
+/* End navbar */
 /* END COMPONENTS*/
 /*VIEWS*/
+/* Index */
+body {
+  color: #212328;
+  font-family: 'Mitr', sans-serif;
+  line-height: normal;
+  font-weight: 400; }
+
+main {
+  background-color: var(--gray-light);
+  min-height: 100vh;
+  padding-top: 7.375rem; }
+
+hr {
+  border: 1px solid var(--dark); }
+
+fieldset {
+  /* background-color: pink; */
+  border: none; }
+
+/* End index */
 /*END VIEWS*/

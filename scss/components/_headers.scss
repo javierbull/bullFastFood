@@ -1,0 +1,59 @@
+/* navbar main */
+header {
+    background-color: $white;
+    box-shadow: $shadow;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-top {
+    background-color: $white;
+    padding: .5rem 3.5rem;
+    @include display-flex(space-between, center, 1rem, row, nowrap);
+  }
+
+  .navbar-top-left {
+    @include display-flex(start, center, 1rem, row, nowrap);
+  }
+
+  .btn-categorias-tablet {
+    @extend %display-none;
+  }
+
+  .btn-categorias-mobile {
+    @extend %display-none;
+  }
+
+  .navbar-brand {
+    height: 3.5rem;
+  }
+
+  .navbar-brand-img {
+    // background-color: blue;
+    height: 100%;
+  }
+
+  .navbar-top-right {
+    // background-color: #C1F8CF;
+    @include display-flex(start, center, 1rem, row, nowrap);
+  }
+
+  .info-delivery {
+    // background-color: pink;
+    @include display-flex(start, center, .25rem, row, nowrap);
+  }
+
+  .info-delivery span {
+    font-size: 2.5rem;
+  }
+
+  .wrap-delivery-number p {
+    // background-color: lavender;
+    margin-bottom: 0;
+  }
+
+  .delivery-label {
+    color: $primary;
+  }
+  /* End navbar */

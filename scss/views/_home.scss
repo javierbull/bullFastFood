@@ -1,0 +1,23 @@
+/* Index */
+body {
+    color: $dark;
+    font-family: 'Mitr', sans-serif;
+    line-height: normal;
+    font-weight: 400;
+  }
+
+  main {
+    background-color: var(--gray-light);
+    min-height: 100vh;
+    padding-top: 7.375rem;
+  }
+
+  hr {
+    border: 1px solid var(--dark);
+  }
+
+  fieldset {
+    /* background-color: pink; */
+    border: none;
+  }
+/* End index */
