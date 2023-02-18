@@ -56,4 +56,26 @@ header {
   .delivery-label {
     color: $primary;
   }
+
+  .navbar-categories {
+    background-color: pink;
+    padding: 0 3.5rem .5rem 3.5rem;
+  }
+
+  .menu-categories {
+    background-color: $white;
+    @include display-flex(space-between, center, 1rem, row, nowrap);
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    a {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: $dark;
+        &:hover {
+            color: $primary;
+        }
+    }
+  }
   /* End navbar */
