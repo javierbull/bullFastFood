@@ -466,7 +466,7 @@ fieldset {
   .carousel-desktop {
     display: none; }
   .carousel-mobile {
-    display: block; }
+    display: block !important; }
   /* End Carousel */
   /* End index */ }
 
