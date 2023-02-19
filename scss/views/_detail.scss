@@ -98,4 +98,8 @@
     width: 100%;
   }
 
+  .wrap-quantity-controls {
+    @include display-flex(center, center, 1rem, row, nowrap);
+  }
+
 /* End product detail */

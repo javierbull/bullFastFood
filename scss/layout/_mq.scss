@@ -67,6 +67,22 @@
     }
 
     /* End index */
+
+    /* Detail page */
+    .section-product-detail {
+        // background-color: aquamarine;
+        @include display-flex(center, center, 2rem, column, nowrap);
+    }
+
+    .product-detail {
+        // background-color: pink;
+        width: 100%
+    }
+
+    .product-customization {
+        width: 100%;
+    }
+    /* End detail page */
 }
 
 /* fin tablet portrait */
@@ -142,6 +158,48 @@
     /* End Carousel */
 
     /* End index */
+
+    /* Detail page */
+    .product-detail-title {
+        font-size: 1.5rem;
+    }
+
+    .product-customization-option-header {
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+
+    .wrap-product-extra-control {
+        // background-color: darkolivegreen;
+        @include display-flex(center, center, 1rem, column, nowrap);
+        margin-bottom: 2rem;
+        p {
+            text-align: center;
+        }
+      }
+
+      .wrap-quantity-controls {
+        span {
+            font-size: 1.25rem;
+        }
+      }
+
+      .control-quantity-product {
+        // background-color: pink;
+        @include display-flex(center, center, 1rem, column, nowrap);
+        .btn {
+            width: 100%;
+        }
+    }
+
+      .wrap-quantity-controls {
+        // background-color: aquamarine;
+        width: 100%;
+        @include display-flex(space-between, center, 1rem, row, nowrap);
+      }
+    
+    /* End detail page */
 }
 
 /* Fin cell portrait */
