@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="#" type="image/x-icon"/>
+    <link rel="icon" href="../img/logos/favicon.png" type="image/x-icon"/>
     <title>Detalle Producto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,21 @@
 <body>
     <header>
         <nav class="navbar-top">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../img/logos/logo.svg" class="navbar-brand-img" alt="Bull Fastfood">
-            </a>
+            <div class="navbar-top-left">
+                <button class="btn button-secondary btn-categorias-mobile" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasSidebarCategoriasMobile" aria-controls="offcanvasSidebarCategoriasMobile">
+                    <span class="material-icons-outlined">
+                        menu
+                    </span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logos/logo.svg" class="navbar-brand-img" alt="Bull Fastfood">
+                </a>
+                <button class="btn button-ghost btn-categorias-tablet" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasSidebarCategoriasMobile" aria-controls="offcanvasSidebarCategoriasMobile">
+                    Categorías
+                </button>
+            </div>
 
             <div class="navbar-top-right">
                 <div class="info-delivery">
@@ -27,9 +39,9 @@
                     <div class="wrap-delivery-number">
                         <p class="subtitle-2 delivery-label">Delivery</p>
                         <p class="phone-number subtitle-1">(01) 6531-5000</p>
-                    </div>    
+                    </div>
                 </div>
-                <button class="btn button-ghost">
+                <button class="btn button-ghost btn-user-name">
                     Hola Javier
                 </button>
                 <button class="btn button-primary button-icon">
@@ -48,7 +60,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="#">
+                    <a href="promociones.html">
                         Promociones
                     </a>
                 </li>
@@ -58,23 +70,23 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="#">
-                        Para 2
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a href="#">
+                    <a href="combos.html">
                         Combos
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="#">
+                    <a href="complementos.html">
                         Complementos
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="#">
+                    <a href="bebidas.html">
                         Bebidas
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="locales.html">
+                        Locales
                     </a>
                 </li>
             </ul>
@@ -83,10 +95,10 @@
     <main>
         <section class="section section-product-detail">
             <div class="product-detail">
-                <h4 class="product-detail-title">
+                <h1 class="product-detail-title">
                     Hamburguesa Doble con queso <br>
                     La Peso Pesado
-                </h4>
+                </h1>
                 <ul class="product-detail-description">
                     <li>
                         Dos hamburguesas a la parrilla regular
@@ -110,9 +122,9 @@
                         <span class="number-option">
                             01
                         </span>
-                        <h5>
+                        <h2>
                             ¿DESEA AGREGAR COMPLEMENTOS?
-                        </h5>
+                        </h2>
                     </div>
                     <div class="product-customization-option-body">
                         <div class="wrap-product-extra-control">
@@ -199,9 +211,9 @@
                         <span class="number-option">
                             02
                         </span>
-                        <h5>
+                        <h2>
                             ¿DESEA AGREGAR BEBIDAS?
-                        </h5>
+                        </h2>
                     </div>
                     <div class="product-customization-option-body">
                         <div class="wrap-product-extra-control">
@@ -249,9 +261,9 @@
                         <span class="number-option">
                             03
                         </span>
-                        <h5>
+                        <h2>
                             ¿DESEA AGREGAR SALSAS?
-                        </h5>
+                        </h2>
                     </div>
                     <div class="product-customization-option-body">
                         <div class="wrap-product-extra-control">
@@ -383,9 +395,9 @@
         <div class="footer-body">
             <ul class="footer-list">
                 <li>
-                    <h6 class="title-list">
+                    <h4 class="title-list">
                         Tiendas y Servicios
-                    </h6>
+                    </h4>
                 </li>
                 <li>
                     <a href="#">
@@ -396,9 +408,9 @@
 
             <ul class="footer-list">
                 <li>
-                    <h6 class="title-list">
+                    <h4 class="title-list">
                         Sobre Nosotros
-                    </h6>
+                    </h4>
                 </li>
                 <li>
                     <a href="#">
@@ -414,9 +426,9 @@
 
             <ul class="footer-list">
                 <li>
-                    <h6 class="title-list">
+                    <h4 class="title-list">
                         Atención al cliente
-                    </h6>
+                    </h4>
                 </li>
                 <li>
                     <a href="#">
@@ -437,9 +449,9 @@
 
             <ul class="footer-list">
                 <li>
-                    <h6 class="title-list">
+                    <h4 class="title-list">
                         Políticas y Términos
-                    </h6>
+                    </h4>
                 </li>
                 <li>
                     <a href="#">
@@ -459,15 +471,15 @@
             </ul>
         </div>
         <div class="footer-social">
-            <h6>Síguenos</h6>
+            <h2 class="footer-social-title">Síguenos</h2>
             <div class="container-socials">
-                <a href="#" target="_blank">
+                <a href="https://www.facebook.com/bembos/?locale=es_LA" target="_blank">
                     <img src="../img/logos/facebook.png" alt="Facebook">
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.youtube.com/user/BembosCanal" target="_blank">
                     <img src="../img/logos/youtube.png" alt="Youtube">
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/bembosoficial/?hl=es-la" target="_blank">
                     <img src="../img/logos/instagram.png" alt="Instagram">
                 </a>
             </div>

@@ -1,0 +1,101 @@
+/* Product detail */
+.section-product-detail {
+    @include display-flex(center, start, 2rem, row, nowrap);
+}
+
+.product-detail {
+    // background-color: pink;
+    width: 35rem;
+}
+
+.product-detail-title {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.product-detail-description {
+    list-style: square;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail-img {
+    width: 100%;
+    box-shadow: $shadow;
+    border-radius: $border-radius-1;
+    -webkit-border-radius: $border-radius-1;
+    -moz-border-radius: $border-radius-1;
+    -ms-border-radius: $border-radius-1;
+    -o-border-radius: $border-radius-1;
+}
+
+.product-customization {
+    background-color: $white;
+    width: 42rem;
+    box-shadow: $shadow;
+    padding: 2rem;
+    border-radius: $border-radius-1;
+    -webkit-border-radius: $border-radius-1;
+    -moz-border-radius: $border-radius-1;
+    -ms-border-radius: $border-radius-1;
+    -o-border-radius: $border-radius-1;
+}
+
+.product-customization-option {
+    // background-color: pink;
+    margin-bottom: 2rem;
+}
+
+.product-customization-option-header {
+    @include display-flex(start, center, 1rem, row, nowrap);
+    margin-bottom: 1rem;
+}
+
+.number-option {
+    background-color: $primary;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 50%;
+    @include display-flex(center, center, 1rem, row, nowrap);
+  }
+
+  .wrap-product-extra-control {
+    @include display-flex(space-between, center, 1rem, row, nowrap);
+    margin-bottom: 1rem;
+    p {
+        font-size: 1.2rem;
+        span {
+            font-weight: 600;
+        }
+    }
+  }
+
+  .control-product-extra {
+    // background-color: salmon;
+    @include display-flex(start, center, .5rem, row, nowrap);
+  }
+
+  .input-number-extra {
+    border: none;
+    height: 2.5rem;
+    user-select: none;
+    font-size: 1.5rem;
+    width: 4rem;
+    padding-left: 1.2rem;
+  }
+
+  .control-quantity-product {
+    background-color: $white;
+    @include display-flex(center, center, 2rem, row, nowrap);
+    padding: 1.5rem;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.20);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* End product detail */
