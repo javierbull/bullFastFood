@@ -575,6 +575,32 @@ fieldset {
   flex-wrap: nowrap; }
 
 /* End product detail */
+/* Locations page */
+.grid-container-location {
+  /* background-color: lavender; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 2rem; }
+
+.card-location {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 4px #9C9DA1;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center; }
+  .card-location h2 {
+    font-size: 1.5rem;
+    color: #F55A03; }
+
+.wrap-card-location-data {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+  flex-direction: row;
+  flex-wrap: nowarp; }
+
+/* End locations page */
 /* Cart page  */
 .wrap-cart-summary {
   display: flex;

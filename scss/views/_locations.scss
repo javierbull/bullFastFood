@@ -1,0 +1,24 @@
+/* Locations page */
+.grid-container-location {
+    /* background-color: lavender; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .card-location {
+    background-color: $white;
+    box-shadow: $shadow;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    h2 {
+        font-size: 1.5rem;
+        color: $primary;
+    }
+  }
+
+  .wrap-card-location-data {
+    @include display-flex(center, start, .5rem, row, nowarp);
+  }
+/* End locations page */
