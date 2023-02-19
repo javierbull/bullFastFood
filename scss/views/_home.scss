@@ -21,5 +21,11 @@ body {
     border: none;
   }
 
-  
+  .carousel-mobile {
+    @extend %display-none;
+  }
+
+  .container-products {
+    @include display-flex(star, start, 2rem, row, wrap);
+  }
 /* End index */

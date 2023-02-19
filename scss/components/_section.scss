@@ -1,0 +1,15 @@
+/* Sections */
+.section {
+    // background-color: aqua;
+    padding: 2.5rem 3.5rem;
+  }
+
+  .header-section {
+    @include display-flex(start, center, 1rem, row, nowrap);
+    margin-bottom: 1rem;
+    h1, h2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+  }
+/* End sections */

@@ -1,0 +1,38 @@
+/* cards */
+.card-category {
+    width: 35rem;
+    height: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: $shadow;
+    transition: ease .3s;
+    &:hover {
+        box-shadow: $shadow-lg;
+        transform: scale(1.025);
+    }
+
+    img {
+        width: 100%;
+    }
+  }
+
+  .card-category-title {
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+    text-align: center;
+    color: $white;
+    font-weight: 600;
+    -webkit-text-stroke: 2px $primary;
+    font-size: 2.5rem;
+  }
+
+  .card-category-footer {
+    position: absolute;
+    bottom: 1.5rem;
+    width: 100%;
+    @include display-flex(center, center, 1rem, row, nowrap);
+  }
+
+/* End cards */

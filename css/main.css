@@ -65,7 +65,7 @@
 /*End Typography*/
 /* END BASE */
 /* UTILITIES */
-.btn-categorias-tablet, .btn-categorias-mobile {
+.btn-categorias-tablet, .btn-categorias-mobile, .carousel-mobile {
   display: none !important; }
 
 /* UTILITIES */
@@ -118,6 +118,43 @@
     color: #212328; }
 
 /* End button */
+/* cards */
+.card-category {
+  width: 35rem;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 4px #9C9DA1;
+  transition: ease .3s; }
+  .card-category:hover {
+    box-shadow: 0 8px 8px #9C9DA1;
+    transform: scale(1.025); }
+  .card-category img {
+    width: 100%; }
+
+.card-category-title {
+  position: absolute;
+  width: 100%;
+  top: 1rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  -webkit-text-stroke: 2px #F55A03;
+  font-size: 2.5rem; }
+
+.card-category-footer {
+  position: absolute;
+  bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+/* End cards */
 /* navbar main */
 header {
   background-color: #FFFFFF;
@@ -221,6 +258,23 @@ header {
   flex-wrap: nowrap; }
 
 /* End off canvas categories mobile */
+/* Sections */
+.section {
+  padding: 2.5rem 3.5rem; }
+
+.header-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem; }
+  .header-section h1, .header-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0; }
+
+/* End sections */
 /* END COMPONENTS*/
 /*VIEWS*/
 /* Index */
@@ -241,6 +295,14 @@ hr {
 fieldset {
   /* background-color: pink; */
   border: none; }
+
+.container-products {
+  display: flex;
+  justify-content: star;
+  align-items: start;
+  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 /* End index */
 /*END VIEWS*/
