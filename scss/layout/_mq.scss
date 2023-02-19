@@ -112,6 +112,16 @@
 
     /* End cart page */
 
+    /* Checkout page */
+    .wrap-checkout-summary {
+        @include display-flex(center, flex-start, 2rem, column, nowrap);
+      }
+
+      .checkout {
+        width: 100%;
+      }
+    /* Checkout page */ 
+
 }
 
 /* fin tablet portrait */

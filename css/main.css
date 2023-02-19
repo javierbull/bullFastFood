@@ -854,7 +854,18 @@ fieldset {
     padding-bottom: 7.5rem; }
   .navigation-mobile-bottom {
     display: flex; }
-  /* End cart page */ }
+  /* End cart page */
+  /* Checkout page */
+  .wrap-checkout-summary {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .checkout {
+    width: 100%; }
+  /* Checkout page */ }
 
 /* fin tablet portrait */
 /* Cell landscape */
