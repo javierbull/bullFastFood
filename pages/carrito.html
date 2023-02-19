@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/logos/favicon.png" type="image/x-icon"/>
-    <title>Carrito de Compras</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../img/logos/favicon.png" type="image/x-icon" />
+        <title>Carrito de compras</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
 <body>
     <header>
         <nav class="navbar-top">
@@ -92,6 +96,68 @@
             </ul>
         </nav>
     </header>
+
+        <!-- Off canvas categories mobile -->
+        <div class="offcanvas offcanvas-start offcanvas-categories-mobile" tabindex="-1"
+        id="offcanvasSidebarCategoriasMobile" aria-labelledby="offcanvasSidebarCategoriasMobileLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+                <img src="../img/logos/logo.svg" class="navbar-brand-img" alt="Bull Fastfood">
+            </a>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        </div>
+        <div class="offcanvas-body">
+            <ul class="menu-sidebar-mobile">
+                <li>
+                    <a href="cuenta.html">
+                        MI CUENTA
+                    </a>
+                </li>
+                <li>
+                    <a href="tel: (01) 612 8000">
+                        LLÁMANOS
+                    </a>
+                </li>
+                <li>
+                    <a href="../index.html">
+                        MENÚ
+                    </a>
+                </li>
+                <li>
+                    <a href="promociones.html">
+                        PROMOCIONES
+                    </a>
+                </li>
+                <li>
+                    <a href="personales.html">
+                        PERSONALES
+                    </a>
+                </li>
+                <li>
+                    <a href="combos.html">
+                        COMBOS
+                    </a>
+                </li>
+                <li>
+                    <a href="complementos.html">
+                        COMPLEMENTOS
+                    </a>
+                </li>
+                <li>
+                    <a href="bebidas.html">
+                        BEBIDAS
+                    </a>
+                </li>
+                <li>
+                    <a href="locales.html">
+                        LOCALES
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Off canvas categories mobile -->
+
     <main>
         <section class="section wrap-cart-summary">
             <section class="section-cart">
@@ -327,5 +393,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>
