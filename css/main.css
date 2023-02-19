@@ -285,6 +285,24 @@ header {
       color: #F55A03; }
 
 /* End navbar */
+/* Modals */
+.modal-header-center, .modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.modal-body p {
+  text-align: center; }
+
+/* End Modals */
 /* Off canvas categories mobile */
 .menu-sidebar-mobile {
   list-style: none;

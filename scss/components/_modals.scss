@@ -1,0 +1,15 @@
+/* Modals */
+.modal-header-center, .modal-footer {
+    @include display-flex(center, flex-start, 1rem, row, nowrap);
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .modal-body p {
+    text-align: center;
+  }
+/* End Modals */
