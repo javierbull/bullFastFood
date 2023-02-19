@@ -873,8 +873,6 @@ fieldset {
     flex-wrap: nowrap; }
   .checkout {
     width: 100%; }
-  .form-checkout {
-    background-color: aquamarine; }
   /* Checkout page */ }
 
 /* fin tablet portrait */
@@ -984,10 +982,27 @@ fieldset {
     align-items: center;
     gap: 1rem;
     flex-direction: column;
-    flex-wrap: nowrap;
-    /* End cart page */ }
+    flex-wrap: nowrap; }
     .navigation-mobile-bottom .btn {
-      width: 100%; } }
+      width: 100%; }
+  /* End cart page */
+  /* Checkout page */
+  .form-group-radio-check {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .wrap-form-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 0.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem; }
+  /* End checkout page */ }
 
 /* Fin cell portrait */
 /* END MQ */

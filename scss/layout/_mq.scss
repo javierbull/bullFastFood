@@ -120,10 +120,6 @@
       .checkout {
         width: 100%;
       }
-
-      .form-checkout {
-        background-color: aquamarine;
-      }
     /* Checkout page */ 
 
 }
@@ -269,8 +265,19 @@
             width: 100%;
         }
 
-        /* End cart page */
     }
+    /* End cart page */
+
+    /* Checkout page */
+    .form-group-radio-check {
+        @include display-flex(start, center, .5rem, row, wrap);
+      }
+
+      .wrap-form-row {
+        @include display-flex(flex-start, flex-end, .5rem, column, wrap);
+        margin-bottom: 1rem;
+      }
+    /* End checkout page */
 
 }
 
