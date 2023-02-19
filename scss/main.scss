@@ -10,11 +10,11 @@
 /* COMPONENTS*/
 @import "components/buttons";
 @import "components/cards";
-@import "components/footer";
 @import "components/headers";
 @import "components/modals";
 @import "components/offcanvas";
 @import "components/section";
+@import "components/footer";
 /* END COMPONENTS*/
 /*VIEWS*/
 @import "views/home";
@@ -24,3 +24,6 @@
 @import "views/cart";
 @import "views/checkout";
 /*END VIEWS*/
+/* MQ */
+@import "layout/mq";
+/* END MQ */

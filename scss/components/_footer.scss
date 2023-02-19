@@ -14,11 +14,13 @@ footer {
   }
 
   .footer-body {
-    @include display-flex(space-between , start, 1rem, row, nowrap);
+    // background-color: blue;
+    @include display-flex(space-between , start, 1rem, row, wrap);
     margin-bottom: 2rem;
   }
 
   .footer-list {
+    // background-color: chocolate;
     width: 15rem;
     list-style: none;
     color: $white;
