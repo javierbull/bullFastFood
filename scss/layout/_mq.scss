@@ -82,7 +82,36 @@
     .product-customization {
         width: 100%;
     }
+
     /* End detail page */
+
+    /* Cart page */
+    .wrap-cart-summary {
+        @include display-flex(center, flex-start, 2rem, column, nowrap);
+    }
+
+    .section-cart {
+        width: 100%;
+    }
+
+    .summary {
+        width: 100%;
+    }
+
+    .summary-footer {
+        display: none;
+    }
+
+    .footer-cart-page {
+        padding-bottom: 7.5rem;
+    }
+
+    .navigation-mobile-bottom {
+        display: flex;
+    }
+
+    /* End cart page */
+
 }
 
 /* fin tablet portrait */
@@ -109,6 +138,7 @@
     .header-section {
         justify-content: center;
         margin-bottom: 1rem;
+
         .btn {
             display: none;
         }
@@ -155,6 +185,7 @@
     .carousel-mobile {
         display: block !important;
     }
+
     /* End Carousel */
 
     /* End index */
@@ -165,41 +196,54 @@
     }
 
     .product-customization-option-header {
-      h2 {
-        font-size: 1.25rem;
-      }
+        h2 {
+            font-size: 1.25rem;
+        }
     }
 
     .wrap-product-extra-control {
         // background-color: darkolivegreen;
         @include display-flex(center, center, 1rem, column, nowrap);
         margin-bottom: 2rem;
+
         p {
             text-align: center;
         }
-      }
+    }
 
-      .wrap-quantity-controls {
+    .wrap-quantity-controls {
         span {
             font-size: 1.25rem;
         }
-      }
+    }
 
-      .control-quantity-product {
+    .control-quantity-product {
         // background-color: pink;
         @include display-flex(center, center, 1rem, column, nowrap);
+
         .btn {
             width: 100%;
         }
     }
 
-      .wrap-quantity-controls {
+    .wrap-quantity-controls {
         // background-color: aquamarine;
         width: 100%;
         @include display-flex(space-between, center, 1rem, row, nowrap);
-      }
-    
+    }
+
     /* End detail page */
+
+    /*  Cart page */
+    .navigation-mobile-bottom {
+        @include display-flex(center, center, 1rem, column, nowrap);
+        .btn {
+            width: 100%;
+        }
+
+        /* End cart page */
+    }
+
 }
 
 /* Fin cell portrait */
