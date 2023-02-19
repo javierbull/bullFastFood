@@ -1,0 +1,5 @@
+/* CATEGORY PAGE */
+.container-cards-products {
+    @include display-flex(start, start, 2rem, row, wrap);
+}
+/* END CATEGORY PAGE */
