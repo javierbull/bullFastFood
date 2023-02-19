@@ -235,6 +235,20 @@
     /* End detail page */
 
     /*  Cart page */
+    .cart-header-title {
+        font-size: 1.5rem;
+    }
+
+    .wrap-cart-product-name-delete {
+        // background-color: aquamarine;
+        @include display-flex(space-between, start, 1rem, row, nowrap);
+    }
+
+    .wrap-cart-product-price-controls {
+        @include display-flex(space-between, center, 1rem, column, nowrap);
+    }
+
+
     .navigation-mobile-bottom {
         @include display-flex(center, center, 1rem, column, nowrap);
         .btn {

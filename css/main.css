@@ -941,6 +941,22 @@ fieldset {
     flex-wrap: nowrap; }
   /* End detail page */
   /*  Cart page */
+  .cart-header-title {
+    font-size: 1.5rem; }
+  .wrap-cart-product-name-delete {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .wrap-cart-product-price-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap; }
   .navigation-mobile-bottom {
     display: flex;
     justify-content: center;
