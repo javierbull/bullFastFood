@@ -218,6 +218,9 @@ footer {
     display: inline-block;
     height: 2.5rem; }
 
+.footer-rights {
+  text-align: center; }
+
 /* End footer */
 /* navbar main */
 header {
