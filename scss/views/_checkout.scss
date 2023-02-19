@@ -86,4 +86,9 @@
     -ms-border-radius: $border-radius-0-5;
     -o-border-radius: $border-radius-0-5;
 }
+
+.form-group-radio-check {
+  // background-color: pink;
+  @include display-flex(start, center, 2rem, row, wrap);
+}
 /* End checkout page */

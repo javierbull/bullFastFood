@@ -111,11 +111,15 @@
                     <form class="form-checkout">
                         <div class="wrap-inputs">
                             <p class="big-form-label">Tipo de entrega</p>
-                            <div class="form-group">
-                                <input type="radio" id="delivery" name="deliveryType" value="Delivery" checked>
-                                  <label for="delivery">Delivery</label>
-                                  <input type="radio" id="pickup" name="deliveryType" value="pickup">
-                                  <label for="pickup">Recojo en tienda</label><br>
+                            <div class="form-group form-group-radio-check">
+                                <div class="form-check-group">
+                                    <input type="radio" id="delivery" name="deliveryType" value="Delivery" checked>
+                                    <label for="delivery">Delivery</label>
+                                </div>
+                                <div class="form-check-group">
+                                    <input type="radio" id="pickup" name="deliveryType" value="pickup">
+                                    <label for="pickup">Recojo en tienda</label>
+                                </div>
                             </div>
                         </div>
 
@@ -156,11 +160,15 @@
 
                         <div class="wrap-inputs">
                             <p class="big-form-label">¿Quién recibirá el pedido?</p>
-                            <div class="form-group">
-                                <input type="radio" id="user" name="receives" value="user" checked>
-                                  <label for="user">Yo mismo</label>
-                                  <input type="radio" id="another" name="receives" value="another">
-                                  <label for="another">Otra persona</label><br>
+                            <div class="form-group form-group-radio-check">
+                                <div class="form-check-group">
+                                    <input type="radio" id="user" name="receives" value="user" checked>
+                                    <label for="user">Yo mismo</label>
+                                </div>
+                                <div class="form-check-group">
+                                    <input type="radio" id="another" name="receives" value="another">
+                                    <label for="another">Otra persona</label><br>
+                                </div>
                             </div>
                         </div>
 
@@ -205,12 +213,17 @@
 
                         <div class="wrap-inputs">
                             <p class="big-form-label">Seleccione método de pago</p>
-                            <div class="form-group">
-                                <input type="radio" id="payment-registered" name="payment" value="payment-registered"
-                                    checked>
-                                  <label for="payment-registered">Mi mastercard que termina en 4562</label>
-                                  <input type="radio" id="new-payment" name="payment" value="new-payment">
-                                  <label for="new-payment">Agregar tarjeta</label><br>
+                            <div class="form-group form-group-radio-check">
+                                <div class="form-check-group">
+                                    <input type="radio" id="payment-registered" name="payment" value="payment-registered"
+                                        checked>
+                                    <label for="payment-registered">Mi mastercard que termina en 4562</label>
+                                </div>
+                                    
+                                <div class="form-check-group">
+                                    <input type="radio" id="new-payment" name="payment" value="new-payment">
+                                    <label for="new-payment">Agregar tarjeta</label><br>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -269,7 +282,7 @@
         <button class="btn button-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Finalizar compra
         </button>
-    </section> 
+    </section>
 
     <footer class="footer-cart-page">
         <div class="footer-header">
@@ -375,7 +388,8 @@
     </footer>
 
     <!-- Modals -->
-    <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header modal-header-center">
@@ -399,7 +413,9 @@
     </div>
     <!-- End Modals -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

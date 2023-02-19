@@ -776,6 +776,14 @@ fieldset {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem; }
 
+.form-group-radio-check {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
 /* End checkout page */
 /*END VIEWS*/
 /* MQ */
@@ -865,6 +873,8 @@ fieldset {
     flex-wrap: nowrap; }
   .checkout {
     width: 100%; }
+  .form-checkout {
+    background-color: aquamarine; }
   /* Checkout page */ }
 
 /* fin tablet portrait */
