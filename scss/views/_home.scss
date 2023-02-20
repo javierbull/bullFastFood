@@ -26,6 +26,6 @@ body {
   }
 
   .container-products {
-    @include display-flex(star, start, 2rem, row, wrap);
+    @include display-flex(start, start, 2rem, row, wrap);
   }
 /* End index */

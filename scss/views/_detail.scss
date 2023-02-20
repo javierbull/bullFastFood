@@ -50,6 +50,9 @@
 .product-customization-option-header {
     @include display-flex(start, center, 1rem, row, nowrap);
     margin-bottom: 1rem;
+    h2 {
+      font-size: 1.5rem;
+    }
 }
 
 .number-option {

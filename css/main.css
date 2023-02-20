@@ -437,7 +437,7 @@ fieldset {
 
 .container-products {
   display: flex;
-  justify-content: star;
+  justify-content: start;
   align-items: start;
   gap: 2rem;
   flex-direction: row;
@@ -507,6 +507,8 @@ fieldset {
   flex-direction: row;
   flex-wrap: nowrap;
   margin-bottom: 1rem; }
+  .product-customization-option-header h2 {
+    font-size: 1.5rem; }
 
 .number-option {
   background-color: #F55A03;
