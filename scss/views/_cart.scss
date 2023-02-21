@@ -28,6 +28,7 @@
 
   .cart-product-name {
     font-size: 1.2rem;
+    margin-bottom: 0;
   }
 
   .wrap-cart-product-name-delete, .wrap-cart-product-price-control {
@@ -43,9 +44,9 @@
 
   .cart-product-price {
     // background-color: bisque;
-    margin-bottom: none;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 0;
   }
 
   .summary {

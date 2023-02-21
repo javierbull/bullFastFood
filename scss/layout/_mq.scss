@@ -219,10 +219,14 @@
     }
 
     .wrap-product-extra-control {
-        // background-color: darkolivegreen;
-        @include display-flex(center, center, 1rem, column, nowrap);
+        // background-color: pink;
+        @include display-flex(center, center, 0, column, nowrap);
         margin-bottom: 2rem;
-
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $dark;
+        &:last-child {
+            border-bottom: none;
+        }
         p {
             text-align: center;
         }
@@ -252,6 +256,17 @@
     /* End detail page */
 
     /*  Cart page */
+    .cart-product {
+        // background-color: lavender;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $dark;
+        &:last-child {
+            border-bottom: none;
+        }
+      }
+
     .cart-header-title {
         font-size: 1.5rem;
     }
@@ -259,6 +274,7 @@
     .wrap-cart-product-name-delete {
         // background-color: aquamarine;
         @include display-flex(space-between, start, 1rem, row, nowrap);
+        margin-bottom: .5rem;
     }
 
     .wrap-cart-product-price-controls {
