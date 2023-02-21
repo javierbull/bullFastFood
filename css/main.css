@@ -416,7 +416,7 @@ footer {
   text-align: center; }
 
 .footer-detalle {
-  padding-bottom: 7.5rem; }
+  padding-bottom: 10rem; }
 
 /* End footer */
 /* END COMPONENTS*/
@@ -936,7 +936,11 @@ fieldset {
     gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap; }
-  /* End Category page */ }
+  /* End Category page */
+  /* Cart page */
+  .footer-cart-page {
+    padding-bottom: 10rem; }
+  /* End cart page */ }
 
 /* Fin cell landscape */
 /* Cell portrait */
