@@ -1,4 +1,4 @@
-/* Laptop */
+    /* Laptop */
 @media (max-width: 1366px) {}
 
 /* Fin laptop */
@@ -155,6 +155,13 @@
     }
 
     /* End index */
+
+        /* Category page */
+        .container-cards-products {
+            // background-color: aquamarine;
+            @include display-flex(center, start, 2rem, row, wrap);
+        }
+        /* End Category page */
 
 }
 

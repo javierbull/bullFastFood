@@ -921,7 +921,16 @@ fieldset {
     margin-bottom: 1rem; }
     .header-section .btn {
       display: none; }
-  /* End index */ }
+  /* End index */
+  /* Category page */
+  .container-cards-products {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  /* End Category page */ }
 
 /* Fin cell landscape */
 /* Cell portrait */
