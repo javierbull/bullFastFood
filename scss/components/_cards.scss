@@ -62,19 +62,24 @@
 
 .card-product-body {
   // background-color: aquamarine;
-  height: 8.75rem;
+  height: 10rem;
   padding: 1rem;
-  @include display-flex(space-between, center, 1rem, column, nowrap);
+  @include display-flex(space-between, center, .5rem, column, nowrap);
 }
 
 .card-product-title {
   font-size: 1.5rem;
   font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .card-product-price {
   font-size: 2rem;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .card-product-footer {
