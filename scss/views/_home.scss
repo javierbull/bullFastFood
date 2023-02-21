@@ -28,4 +28,6 @@ body {
   .container-products {
     @include display-flex(start, start, 2rem, row, wrap);
   }
+
+  
 /* End index */
