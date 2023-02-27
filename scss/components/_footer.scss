@@ -14,9 +14,12 @@ footer {
   }
 
   .footer-body {
-    // background-color: blue;
-    @include display-flex(space-between , start, 1rem, row, wrap);
+    // background-color: brown;
     margin-bottom: 2rem;
+    display: grid;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
 
   .footer-list {

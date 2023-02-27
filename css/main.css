@@ -366,13 +366,11 @@ footer {
     height: 3.5rem; }
 
 .footer-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 1rem;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  display: grid;
+  grid-gap: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .footer-list {
   width: 15rem;
