@@ -118,6 +118,19 @@
     background-color: #EFEFF4;
     color: #212328; }
 
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  font-weight: 400;
+  color: #212328; }
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #212328;
+    background-color: #EFEFF4; }
+  .dropdown-item.active, .dropdown-item:active {
+    color: #FFFFFF;
+    background-color: #F55A03; }
+
 /* End button */
 /* cards */
 /* card category */

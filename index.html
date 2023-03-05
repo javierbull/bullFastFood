@@ -49,15 +49,22 @@
                         <p class="phone-number subtitle-1">(01) 6531-5000</p>
                     </div>
                 </div>
-                <button class="btn button-ghost btn-user-name">
-                    Hola Javier
-                </button>
-                <button class="btn button-primary button-icon">
+                <div class="btn-group">
+                    <button type="button" class="btn button-ghost dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hola javier
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">Mi Perfil</button></li>
+                      <li><button class="dropdown-item" type="button">Mis Compras</button></li>
+                      <li><button class="dropdown-item" type="button">Cerrar Sesión</button></li>
+                    </ul>
+                  </div>
+                <a href="pages/carrito.html" class="btn button-primary button-icon">
                     <span class="material-icons-outlined">
                         shopping_cart
                     </span>
                     00
-                </button>
+                </a>
             </div>
         </nav>
         <nav class="navbar-categories">

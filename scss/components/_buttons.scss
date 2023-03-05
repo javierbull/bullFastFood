@@ -49,5 +49,21 @@
     }
 }
 
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    font-weight: 400;
+    color: $dark;
+    &:hover, &:focus {
+        color: $dark;
+        background-color: $gray-light;
+    }
+    &.active, &:active {
+        color: $white;
+        background-color: $primary;
+    }
+}
+
 
 /* End button */
