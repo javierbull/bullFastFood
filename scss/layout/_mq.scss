@@ -211,6 +211,14 @@
 
     /* End Carousel */
 
+    .user-name {
+        display: none;
+    }
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+
     /* End index */
 
     /* Detail page */

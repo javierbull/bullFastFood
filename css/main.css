@@ -95,6 +95,10 @@
   .btn:hover {
     cursor: pointer; }
 
+.user-img {
+  display: block;
+  width: 2rem; }
+
 .button-primary {
   background-color: #F55A03;
   color: #FFFFFF; }
@@ -981,6 +985,10 @@ fieldset {
   .carousel-mobile {
     display: block !important; }
   /* End Carousel */
+  .user-name {
+    display: none; }
+  .dropdown-toggle::after {
+    content: none; }
   /* End index */
   /* Detail page */
   .product-detail-title {
